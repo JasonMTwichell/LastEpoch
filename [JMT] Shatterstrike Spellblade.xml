@@ -158,7 +158,7 @@
           <comparsionValue>0</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>15</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -277,7 +277,28 @@
       <nameOverride>build specific affixes - edit this per build</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes />
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>7</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>exalted shatter</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -374,7 +395,7 @@
           <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>6</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -383,7 +404,7 @@
       <nameOverride>build affixes exalted</nameOverride>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
@@ -480,12 +501,12 @@
           <advanced>true</advanced>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>6</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
+      <emphasized>true</emphasized>
       <nameOverride>build affixes double exalted</nameOverride>
     </Rule>
     <Rule>
@@ -691,10 +712,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>3</combinedComparsionValue>
+          <combinedComparsionValue>5</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -707,7 +728,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -800,10 +821,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>4</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -816,7 +837,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -909,10 +930,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>7</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>7</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -920,14 +941,14 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>52</int>
-            <int>14</int>
-            <int>64</int>
-            <int>70</int>
+            <int>58</int>
+            <int>23</int>
+            <int>22</int>
+            <int>20</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1019,10 +1040,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>6</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>12</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -1030,14 +1051,14 @@
             <EquipmentType>BODY_ARMOR</EquipmentType>
           </type>
           <subTypes>
-            <int>52</int>
-            <int>14</int>
-            <int>64</int>
-            <int>70</int>
+            <int>58</int>
+            <int>23</int>
+            <int>22</int>
+            <int>20</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1130,7 +1151,7 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -1148,7 +1169,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1241,10 +1262,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>4</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -1259,7 +1280,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1353,7 +1374,7 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -1365,14 +1386,12 @@
           </type>
           <subTypes>
             <int>10</int>
-            <int>7</int>
             <int>4</int>
             <int>6</int>
-            <int>8</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1466,10 +1485,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>4</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -1478,14 +1497,12 @@
           </type>
           <subTypes>
             <int>10</int>
-            <int>7</int>
             <int>4</int>
             <int>6</int>
-            <int>8</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1578,7 +1595,7 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -1595,7 +1612,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1688,10 +1705,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>4</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -1705,7 +1722,7 @@
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1798,7 +1815,7 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -1812,10 +1829,11 @@
             <int>11</int>
             <int>6</int>
             <int>10</int>
+            <int>12</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -1908,10 +1926,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>4</comparsionValue>
           <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -1922,10 +1940,11 @@
             <int>11</int>
             <int>6</int>
             <int>10</int>
+            <int>12</int>
           </subTypes>
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -2018,7 +2037,7 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
+          <comparsionValue>5</comparsionValue>
           <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>6</combinedComparsionValue>
@@ -2033,7 +2052,7 @@
           <subTypes />
         </Condition>
       </conditions>
-      <color>17</color>
+      <color>12</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -2126,10 +2145,10 @@
             <int>129</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>3</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsionValue>4</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>6</combinedComparsionValue>
+          <combinedComparsionValue>8</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
         <Condition i:type="SubTypeCondition">
@@ -2141,7 +2160,7 @@
           <subTypes />
         </Condition>
       </conditions>
-      <color>12</color>
+      <color>10</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
@@ -2241,115 +2260,9 @@
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
+          <minOnTheSameItem>2</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>5</combinedComparsionValue>
-          <advanced>true</advanced>
-        </Condition>
-      </conditions>
-      <color>6</color>
-      <isEnabled>false</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride>build affixes - t5</nameOverride>
-    </Rule>
-    <Rule>
-      <type>HIGHLIGHT</type>
-      <conditions>
-        <Condition i:type="AffixCondition">
-          <affixes>
-            <int>503</int>
-            <int>502</int>
-            <int>718</int>
-            <int>671</int>
-            <int>505</int>
-            <int>504</int>
-            <int>78</int>
-            <int>62</int>
-            <int>63</int>
-            <int>2</int>
-            <int>89</int>
-            <int>16</int>
-            <int>9</int>
-            <int>33</int>
-            <int>30</int>
-            <int>35</int>
-            <int>721</int>
-            <int>6</int>
-            <int>5</int>
-            <int>25</int>
-            <int>52</int>
-            <int>36</int>
-            <int>17</int>
-            <int>80</int>
-            <int>13</int>
-            <int>24</int>
-            <int>10</int>
-            <int>19</int>
-            <int>7</int>
-            <int>1</int>
-            <int>46</int>
-            <int>45</int>
-            <int>425</int>
-            <int>92</int>
-            <int>31</int>
-            <int>20</int>
-            <int>44</int>
-            <int>99</int>
-            <int>382</int>
-            <int>97</int>
-            <int>69</int>
-            <int>28</int>
-            <int>27</int>
-            <int>34</int>
-            <int>331</int>
-            <int>330</int>
-            <int>86</int>
-            <int>11</int>
-            <int>428</int>
-            <int>429</int>
-            <int>14</int>
-            <int>387</int>
-            <int>390</int>
-            <int>400</int>
-            <int>688</int>
-            <int>397</int>
-            <int>547</int>
-            <int>597</int>
-            <int>598</int>
-            <int>628</int>
-            <int>593</int>
-            <int>680</int>
-            <int>105</int>
-            <int>430</int>
-            <int>107</int>
-            <int>109</int>
-            <int>110</int>
-            <int>134</int>
-            <int>142</int>
-            <int>106</int>
-            <int>321</int>
-            <int>319</int>
-            <int>166</int>
-            <int>178</int>
-            <int>175</int>
-            <int>179</int>
-            <int>188</int>
-            <int>238</int>
-            <int>244</int>
-            <int>249</int>
-            <int>255</int>
-            <int>328</int>
-            <int>689</int>
-            <int>129</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>5</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>15</combinedComparsionValue>
+          <combinedComparsionValue>10</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
       </conditions>
@@ -2358,8 +2271,8 @@
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
-      <emphasized>true</emphasized>
-      <nameOverride>build affixes - 15 tier total</nameOverride>
+      <emphasized>false</emphasized>
+      <nameOverride>build affixes - 2x t5+</nameOverride>
     </Rule>
     <Rule>
       <type>SHOW</type>
